@@ -8,5 +8,5 @@ default visible = false
 default enabled = false
 
 allowed {
-    user.properties.roles[_] == "admin-role"
+    input.groups[_] == "admin"
 }
